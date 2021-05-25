@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<!-- DTO를 별칭으로 줄여서 사용하기 위함 (alias에 원하는 별칭 기입) -->
+		<typeAlias type="com.naver.member.dto.Member" alias="nmember" />
+
+	</typeAliases>
+</configuration>
